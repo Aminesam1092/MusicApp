@@ -1,0 +1,24 @@
+:root{
+    --main-bg-color:#e0e0e0;
+    --main-dr-color: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 320;
+    background-color: var(--main-bg-color);
+}
+.ExampleBox{
+    max-width: 500px;
+    height: 800px;
+    margin: 50px auto;
+    padding: 0 50px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px var(--main-dr-color);
+}
